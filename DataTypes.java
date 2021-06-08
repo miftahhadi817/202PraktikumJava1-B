@@ -1,3 +1,5 @@
+import javax.swing.JOptionPane;
+
 public class DataTypes{
  public static void main(String[]args){
   String namaDepan = "Miftah";
@@ -18,6 +20,8 @@ public class DataTypes{
 
   int usiaLulus = usia + lamaKuliah;
   System.out.println("Usia saat lulus (Variabel): " + usiaLulus);  
+
+  JOptionPane.showMessageDialog(null, "Hai, " + namaDepan + namaTengah);
 
  }
 }
