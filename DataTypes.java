@@ -4,11 +4,10 @@ public class DataTypes{
   String namaTengah = "Tah";
   String namaBelakang = "Hadi";
 
-  int usia = 18;
-  int lamaKuliah = 4;
-  double ipk = 3.89764512;
+  int usia;
+  int lamaKuliah;
+  double ipk;
   char nilai = 'A';
-  bolean tampan = true;  
 
  }
 }
